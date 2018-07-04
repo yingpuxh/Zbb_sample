@@ -1,0 +1,19 @@
+Universe   = vanilla
+Executable = Zbb_NLO_5_decay.sh
+getenv = True
+Arguments  = 
+Log        = Zbb_NLO_5_decay.log
+Output     = Zbb_NLO_5_decay.out
+Error      = Zbb_NLO_5_decay.err
+Request_Memory = 2000
+request_disk = 3000000
+
+should_transfer_files = YES
+#when_to_transfer_output = ON_EXIT
+#transfer_input_files = main321.cmnd, ../../pythia8219, FatHiggsTagging.cc, submit_jobs_condor.py, Zbb_NLO_5_decay.lhe, ../../mg_image.tar.gz
+transfer_input_files = main321.cmnd, main321, ../../Pythia8_latest_version/pythia8235, FatHiggsTagging.cc, submit_jobs_condor.py, Zbb_NLO_5_decay.lhe, ../../mg_image.tar.gz
+transfer_output_files = Zbb_NLO_5_decay 
+#output_destination = /users/bp15067/mg/results
+
+
+Queue

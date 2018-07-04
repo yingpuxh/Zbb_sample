@@ -1,0 +1,43 @@
+! 1) Settings used in the main program.
+Main:numberOfEvents   = -1         ! number of events to generate (-1 for all)
+Main:timesAllowErrors = 3          ! how many aborts before run stops
+Main:spareMode1 = 0                ! skip n events at beginning of file
+
+! 2) Settings related to output in init(), next() and stat().
+Init:showChangedSettings = on      ! list changed settings
+Init:showChangedParticleData = on  ! list changed particle data
+Next:numberCount       = 1000      ! print message every n events
+Next:numberShowInfo    = 1         ! print event information n times
+Next:numberShowProcess = 1         ! print process record n times
+Next:numberShowEvent   = 1         ! print event record n times
+
+! 3) Event files from Madgraph run
+Beams:LHEF               = Zbb_NLO_1_decay.lhe
+Beams:frameType          = 4
+! option 4 : the beam and event information is stored in a Les Houches Event File
+
+! 4) Enable matching
+JetMatching:merge = on
+
+JetMatching:setMad       = on         ! on: use values in header of Madgraph LHE file. 
+! assumes that ickkw xqcut maxjetflavor alpsfact are set
+! sets the following values:
+! JetMatching:doMerge = ickkw
+! JetMatching:qCut = xqcut
+! JetMatching:nQmatch = maxjetflavor
+! JetMatching:clFact = alpsfact
+
+JetMatching:scheme       = 1
+JetMatching:jetAlgorithm = 2
+JetMatching:slowJetPower = 1
+
+JetMatching:eTjetMin     = 30.0
+JetMatching:etaJetMax    = 5.0
+JetMatching:coneRadius   = 1.0
+
+JetMatching:doShowerKt   = off         ! off/on for MLM/shower-kT matching
+
+JetMatching:exclusive    = 2
+JetMatching:nJetMax      = 1
+
+!JetMatching:qCut = 30. 

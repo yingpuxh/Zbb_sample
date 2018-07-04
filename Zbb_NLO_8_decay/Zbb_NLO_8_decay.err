@@ -1,0 +1,105 @@
+In file included from /condor/condor/dir_2322965/rivet//include/fastjet/SharedPtr.hh:41:0,
+                 from /condor/condor/dir_2322965/rivet//include/fastjet/PseudoJet.hh:42,
+                 from /condor/condor/dir_2322965/rivet//include/fastjet/JetDefinition.hh:36,
+                 from /condor/condor/dir_2322965/rivet//include/Rivet/Tools/RivetFastJet.hh:6,
+                 from /condor/condor/dir_2322965/rivet//include/Rivet/Jet.fhh:6,
+                 from /condor/condor/dir_2322965/rivet//include/Rivet/ParticleBase.hh:5,
+                 from /condor/condor/dir_2322965/rivet//include/Rivet/Particle.hh:6,
+                 from /condor/condor/dir_2322965/rivet//include/Rivet/Event.hh:6,
+                 from /condor/condor/dir_2322965/rivet//include/Rivet/Analysis.hh:7,
+                 from FatHiggsTagging.cc:2:
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/SharedPtr.hh:222:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("Use SharedPtr<T>::get() instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/JetDefinition.hh:365:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("This argument ordering is deprecated. Use JetDefinition(alg, R, strategy, scheme[, n_parameters]) instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/RangeDefinition.hh:54:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("RangeDefinition is deprecated since FastJet 3.0. Use the Selector mechanism instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/RangeDefinition.hh:58:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("RangeDefinition is deprecated since FastJet 3.0. Use the Selector mechanism instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/GhostedAreaSpec.hh:176:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("This is deprecated since we strongly recomment to use the new ghost placement instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/ClusterSequenceAreaBase.hh:147:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("ClusterSequenceAreaBase::median_pt_per_unit_area(...) is deprecated since FastJet 3.0. Use the BackgroundEstimator series of tools instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/ClusterSequenceAreaBase.hh:155:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("ClusterSequenceAreaBase::median_pt_per_unit_area_4vector(...) is deprecated since FastJet 3.0. Use the BackgroundEstimator series of tools instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/ClusterSequenceAreaBase.hh:162:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("ClusterSequenceAreaBase::median_pt_per_unit_something(...) is deprecated since FastJet 3.0. Use the BackgroundEstimator series of tools instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/ClusterSequenceAreaBase.hh:255:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("ClusterSequenceAreaBase::subtracted_jets(...) is deprecated since FastJet 3.0. Use the Subtractor tool (with the BackgroundEstimator series of tools) instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/ClusterSequenceAreaBase.hh:267:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("ClusterSequenceAreaBase::subtracted_jets(...) is deprecated since FastJet 3.0. Use the Subtractor tool (with the BackgroundEstimator series of tools) instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/ClusterSequenceAreaBase.hh:272:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("ClusterSequenceAreaBase::subtracted_jet(...) is deprecated since FastJet 3.0. Use the Subtractor tool (with the BackgroundEstimator series of tools) instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/ClusterSequenceAreaBase.hh:284:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("ClusterSequenceAreaBase::subtracted_jet(...) is deprecated since FastJet 3.0. Use the Subtractor tool (with the BackgroundEstimator series of tools) instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/ClusterSequenceAreaBase.hh:289:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("ClusterSequenceAreaBase::subtracted_pt(...) is deprecated since FastJet 3.0. Use the Subtractor tool (with the BackgroundEstimator series of tools) instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+/condor/condor/dir_2322965/rivet//include/fastjet/internal/deprecated.hh:41:54: warning: ‘deprecated’ is a C++14 feature; use ‘gnu::deprecated’ [-Wpedantic]
+ #define FASTJET_DEPRECATED_MSG(message)  [[deprecated(message)]]
+                                                      ^
+/condor/condor/dir_2322965/rivet//include/fastjet/ClusterSequenceAreaBase.hh:301:3: note: in expansion of macro ‘FASTJET_DEPRECATED_MSG’
+   FASTJET_DEPRECATED_MSG("ClusterSequenceAreaBase::subtracted_pt(...) is deprecated since FastJet 3.0. Use the Subtractor tool (with the BackgroundEstimator series of tools) instead")
+   ^~~~~~~~~~~~~~~~~~~~~~
+Rivet 2.5.2 running on machine hd-37-03.dice.priv (x86_64) at 2018-07-04 15:33:21
+streaming input: end of stream found setting badbit.
+Failed to initialise using event file 'Zbb_NLO_8_decay.hepmc'... exiting
+Error in <TGClient::TGClient>: can't open display "localhost:11.0", switching to batch mode...
+ In case you run from a remote ssh session, reconnect with ssh -Y
+Traceback (most recent call last):
+  File "/condor/condor/dir_2322965/rivet//bin/yoda2root", line 29, in <module>
+    analysisobjects = yoda.readYODA(i)
+  File "yoda/include/IO.pyx", line 127, in yoda.core.readYODA (yoda/core.cpp:75653)
+  File "yoda/include/IO.pyx", line 67, in yoda.core._str_from_file (yoda/core.cpp:74837)
+IOError: [Errno 2] No such file or directory: 'Zbb_NLO_8_decay.yoda'
